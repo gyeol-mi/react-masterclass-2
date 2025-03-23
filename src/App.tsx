@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import "./App.css";
-
+import Circle from "./Circle";
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <div>
+      <Circle bgColor="teal" />
+      <Circle bgColor="tomato" />
+    </div>
+  );
 }
 
 export default App;
